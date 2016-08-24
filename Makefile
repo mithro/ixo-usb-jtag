@@ -102,7 +102,7 @@ ${HARDWARE}.rel: ${HARDWARE}.c hardware.h
 
 clean:
 	make -C ${LIBDIR} clean
-	rm -f *.lst *.asm *.lib *.sym *.rel *.mem *.map *.rst *.lnk *.hex dscr.a51
+	rm -f *.lst *.asm *.lib *.sym *.rel *.mem *.map *.rst *.lk *.hex dscr.a51
 
 distclean: clean
 
